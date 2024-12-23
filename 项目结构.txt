@@ -1,6 +1,15 @@
 my-markdown-editor/
-├── package.json
-├── main.js
-├── index.html
-├── style.css
-└── script.js
+├── package.json              # 项目信息和依赖管理
+├── main.js                   # Electron 主进程代码
+├── preload.js                # 主进程与渲染进程间的桥接文件
+├── renderer.js               # 渲染进程的业务逻辑（处理界面与用户交互）
+├── style.css                 # 编辑器样式
+├── index.html                # HTML 模板文件
+├── assets/                   # 存放静态资源，如图标、图片等
+├── src/                      # 源代码
+│   ├── file-manager.js       # 文件管理模块（打开、保存、导入导出）
+│   ├── markdown-renderer.js  # Markdown 渲染模块
+│   ├── theme-manager.js      # 主题切换模块
+├── dist/                     # 打包后的应用文件（打包过程中自动生成）
+├── .gitignore                # Git 忽略文件配置
+└── README.md                 # 项目说明文件
