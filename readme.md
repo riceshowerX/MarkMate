@@ -14,7 +14,7 @@
 
 ### Windows 用户
 
-1. 访问 [GitHub Releases 页面](https://github.com/yourusername/my-markdown-editor/releases)。
+1. 访问 [GitHub Releases 页面](https://github.com/riceshowerX/MarkMate/releases)。
 2. 下载适合你操作系统的安装包（`.exe` 文件）。
 3. 运行安装程序并按照提示完成安装。
 
