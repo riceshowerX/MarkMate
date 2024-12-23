@@ -1,0 +1,4 @@
+body { display: flex; height: 90vh; margin: 0; }
+textarea, #preview { width: 50%; height: 100%; border: 1px solid #ccc; padding: 10px; font-family: monospace; box-sizing: border-box; }
+#preview { overflow-y: auto; }
+.hljs { background-color: #f0f0f0; } /* 添加样式规则 */

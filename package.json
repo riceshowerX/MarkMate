@@ -1,0 +1,33 @@
+{
+  "name": "my-markdown-editor",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "24.8.8", 
+    "electron-builder": "^24.0.0"
+  },
+  "dependencies": {
+    "marked": "^4.0.0", 
+    "highlight.js": "^11.7.0"
+  },
+  "build": {
+    "appId": "com.yourname.markdowneditor", 
+    "productName": "Markdown Editor", 
+    "win": {
+      "target": "nsis",
+      "icon": "path/to/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "directories": {
+      "output": "dist"
+    }
+  }
+}

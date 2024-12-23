@@ -1,0 +1,6 @@
+my-markdown-editor/
+├── package.json
+├── main.js
+├── index.html
+├── style.css
+└── script.js
